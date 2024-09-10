@@ -17,6 +17,10 @@
       "dependsOn": [
         "^start"
       ]
+    },
+    "watch": {
+      "dependsOn": [],
+      "outputs": []
     }
   }
 }

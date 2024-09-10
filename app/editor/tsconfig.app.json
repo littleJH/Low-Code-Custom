@@ -17,11 +17,18 @@
     "noEmit": true,
     "jsx": "react-jsx",
 
+    "jsxImportSource": "@emotion/react",
+    "types": ["@emotion/react/types/css-prop"],
+
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"], // 使用别名下的模块
+    }
   },
   "include": ["src"]
 }

@@ -1,10 +1,10 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig, PluginOption } from 'vite';
+import pluginReact from '@vitejs/plugin-react';
 import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [pluginReact() as PluginOption],
   server: {
     headers: {
       'Access-Control-Allow-Origin': '*',

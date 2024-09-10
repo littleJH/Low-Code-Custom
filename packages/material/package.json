@@ -1,5 +1,5 @@
 {
-  "name": "@lcc/core",
+  "name": "@lcc/material",
   "version": "1.0.0",
   "description": "",
   "files": [
@@ -14,5 +14,8 @@
   },
   "keywords": [],
   "author": "jiahe",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@lcc/core": "workspace:*"
+  }
 }
